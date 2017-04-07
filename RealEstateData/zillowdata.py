@@ -3,7 +3,7 @@
 Created on Sat Mar 26 2017
 Visualize and analyze local real estate transaction data
 Data Source: www.zillow.com/research/data/
-Disclaimer: The data used in this file can be fownloaded from URL above.
+Disclaimer: The data used in this file can be downloaded from URL above.
 See notebook for demonstration. It is for personal study only.
 @author: K Li
 """
@@ -44,7 +44,6 @@ fig, axes = plt.subplots(2,1)
 dataSize = medianPrice.shape[0]
 medianPrice.plot(title='Median home sale price',xticks=calcTicks(dataSize),ax=axes[0])
 plt.xticks(rotation = 45)
-plt.show()
 
 
 # Turnover rate
